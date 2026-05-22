@@ -1,11 +1,13 @@
 import React from 'react'
-import Calculator from './calculator/Calculator'
+import Counter from './Counter project/Counter'
 
 const App = () => {
   return (
-    <div className='flex justify-center items-center w-full  h-[100vh]' >
-      <Calculator />
+    <div className='w-full h-[90vh] flex justify-center items-center' >
+     <Counter />
     </div>
+
+   
   )
 }
 
